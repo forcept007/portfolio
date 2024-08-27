@@ -5,7 +5,7 @@
 ### South Sudan Food Insecurity
 Description
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)[![](https://img.shields.io/badge/Spacy-white?logo=Spacy)](#)
 
 [View Code on GitHub](https://github.com/forcept007/South_Sudan_Food_Insecurity/)
 
