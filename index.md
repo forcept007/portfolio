@@ -5,7 +5,7 @@
 ### South Sudan Food Insecurity
 Description
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)]
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#)
 
 [View Code on GitHub](https://github.com/forcept007/South_Sudan_Food_Insecurity/)
 
@@ -14,7 +14,7 @@ Description
 ### Shadow Reconstructions
 Description
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)]
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#)
 
 [View Thesis Paper](/pdf/BEP__Shadow_Reconstruction_Attack_PT_Final.pdf)
 
@@ -25,7 +25,7 @@ Description
 ### Speech Emotion Decoder
 Description
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)]
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#)
 
 [View Code on GitHub](https://github.com/forcept007/Speech_Emotion_Decoder/)
 
