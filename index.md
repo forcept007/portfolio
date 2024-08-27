@@ -1,23 +1,30 @@
-## Portfolio
+## Selected Projects in Data Science, Machine Learning, and NLP 
 
 ---
 
-### Category Name 1 
+### South Sudan Food Insecurity
+Description
 
-[South Sudan Food Insecurity](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Shadow Reconstructions](/pdf/BEP__Shadow_Reconstruction_Attack_PT_Final.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Speech Emotion Decoder](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[View Code on GitHub](https://github.com/forcept007/South_Sudan_Food_Insecurity/)
 
 ---
 
-### Category Name 2
+### Shadow Reconstructions
+Description
+
+[View Thesis Paper](/pdf/BEP__Shadow_Reconstruction_Attack_PT_Final.pdf)
+[View Code on GitHub](https://github.com/forcept007/Shadow_Reconstruction/)
+
+---
+
+### Speech Emotion Decoder
+Description
+
+[View Code on GitHub](https://github.com/forcept007/Speech_Emotion_Decoder/)
+
+---
+
+### Additional Projects
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
