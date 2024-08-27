@@ -8,7 +8,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Shadow Reconstructions](/pdf/sample_presentation.pdf)
+[Shadow Reconstructions](/pdf/BEP__Shadow_Reconstruction_Attack_PT_Final.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
