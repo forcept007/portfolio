@@ -34,6 +34,8 @@ Model inversion (MI) attacks are categorized into optimization approaches, which
 ### Speech Emotion Decoder
 Speech emotion detection is the automated task of identifying the primary emotional valence expressed in an audio file, quantified on a scale from 1 (highly negative) to 5 (highly positive). In this project, I developed a 1D CNN regression model using PyTorch to accurately predict these emotional valence values.
 
+<img src="images/audio_data.png?raw=true" />
+
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#)
 
 [View Code on GitHub](https://github.com/forcept007/Speech_Emotion_Decoder/)
