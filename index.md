@@ -3,7 +3,7 @@
 ---
 
 ### South Sudan Food Insecurity
-Description
+The ever-changing dynamics of power and conflict within South Sudan pose a continuous threat of severe, unforeseen hunger. By leveraging local news articles, our team identified major conflict events that have a lasting impact on the Integrated Food Security Phase Classification (IPC) scores, which remain elevated long after these events due to the fallout of these tragic events. To model IPC scores accurately, we integrated the news articles with climate variables, ensuring a comprehensive approach that accounts for both the immediate and sustained effects of conflict and environmental factors.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Spacy-white?logo=Spacy)](#) 
 [![](https://img.shields.io/badge/HuggingFace_BERTopic-white?logo=huggingface)](#) 
