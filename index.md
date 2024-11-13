@@ -2,6 +2,29 @@
 
 ---
 
+### MEDUSA: Medical Data Under Shadow Attacks via Hybrid Model Inversion
+#### Under Review for AISTATS 2025 Conference
+A novel hybrid model inversion framework that leverages gradient-based optimization and TCNNs to reconstruct high-fidelity medical images from model outputs in a gray-box setting. Unlike traditional attacks requiring full model details, MEDUSA uses surrogate shadow models trained on publicly available data, simulating limited-information scenarios often encountered in practice. Our approach shows that even with restricted access, quality image reconstructions are possible, raising serious privacy concerns for patient data. Contributions include demonstrating that a combination of gradient-based methods and TCNNs yields potent reconstructions, even with limited model access, and providing a detailed analysis of how different input configurations impact reconstruction quality. We also evaluate the reconstructions as viable training data, finding that they can approximate real images well enough to use for model training. Finally, we propose robust defensive mechanisms such as output vector truncation, Gaussian noise, and a new k-NN smearing technique to tackle privacy risks.
+
+
+---
+
+### Airline Customer Service Analysis - Twitter
+
+---
+
+### AirBnB Dashboard
+
+---
+
+### Predicting Burglaries in Barnet, UK
+
+---
+
+### Spread of Misinformation 
+
+---
+
 ### South Sudan Food Insecurity
 The ongoing power struggles and conflicts in South Sudan continually threaten severe hunger. Our team used local news to identify major conflict events that significantly impact Integrated Food Security Phase Classification (IPC) scores, which remain elevated long after the events. To model IPC scores accurately, we combined news data with climate variables, capturing both the immediate and lasting effects of conflict and environmental factors.
 
@@ -39,3 +62,4 @@ Speech emotion detection is the automated task of identifying the primary emotio
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#)
 
 [View Code on GitHub](https://github.com/forcept007/Speech_Emotion_Decoder/)
+
