@@ -6,6 +6,8 @@
 #### Under Review for AISTATS 2025 Conference
 A novel hybrid model inversion framework that leverages gradient-based optimization and TCNNs to reconstruct high-fidelity medical images from model outputs in a gray-box setting. Unlike traditional attacks requiring full model details, MEDUSA uses surrogate shadow models trained on publicly available data, simulating limited-information scenarios often encountered in practice. Our approach shows that even with restricted access, quality image reconstructions are possible, raising serious privacy concerns for patient data. Contributions include demonstrating that a combination of gradient-based methods and TCNNs yields potent reconstructions, even with limited model access, and providing a detailed analysis of how different input configurations impact reconstruction quality. We also evaluate the reconstructions as viable training data, finding that they can approximate real images well enough to use for model training. Finally, we propose robust defensive mechanisms such as output vector truncation, Gaussian noise, and a new k-NN smearing technique to tackle privacy risks.
 
+<img src="images/flow_train.png?raw=true" width="426" /> <img src="images/flow_inference.png?raw=true" width="410" />
+<img src="images/knn_smear.png?raw=true" width="580" /> <img src="images/defence-mech.png?raw=true" width="269" />
 
 ---
 
