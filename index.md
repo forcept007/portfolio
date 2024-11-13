@@ -25,7 +25,7 @@ Assess KLM's Twitter team's performance in comparison to other airlines and reco
 </div>
 
 <div align="center">
-<img src="images/klm ranking.png?raw=true" width="520"/>
+<img src="images/klm-ranking.png?raw=true" width="620"/>
 </div>
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
