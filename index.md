@@ -4,10 +4,10 @@
 Model inversion (MI) attacks are categorized into optimization approaches, which use gradient-based optimization and inversion via a secondary model. This study bridges the gap between these two methods, focusing on a gray-box setting where the model's architecture is known but not its weights. The focus is on using a transposed convolutional neural network (TCNN) as an inverse model to reconstruct images from a convolutional neural network's (CNN) output vectors.
 
 <div align="center">
-<img src="images/workflow-shadow.png?raw=true" width="400" /> 
+<img src="images/workflow-shadow.png?raw=true" width="380" /> 
 </div>
 <div align="center">
-<img src="images/results-shadow.png?raw=true" />
+<img src="images/results-shadow.png?raw=true" width="500" />
 </div>
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#)
 
