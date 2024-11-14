@@ -123,5 +123,19 @@ Airbnb has grown in popularity in recent years, and more people are interested i
 
 ### Spread of Misinformation 
 
+An experiment by Aslett et al. 2022 found that approximately one-third of the participants visited unreliable news websites. Misinformation on Social Media is a serious problem that can have varying harmful impacts depending on the severity of the false information.
+My group and I built a multi-agent modeling environment in NetLogo to simulate the spread of misinformation through social media, by investigating variables such as the reliability of the source, the severity of the fake news, susceptibility of individuals, gossip-reluctancy (willingness to talk with neighbors). The agents communicating with a patch simulate a user interacting with a news site directly, and a patch communicating with its adjacent patches simulates one person sharing the news with another in person or via text. We concluded from our experiments that both severity and source reliability have a positive correlation with the compromised population percentage, with source reliability having a stronger impact.
+
+<div align="center">
+<img src="images/netlogo-1.png?raw=true" width="350"/>
+</div>
+<div align="center">
+<img src="images/netlogo-2.png?raw=true" width="450"/>
+</div>
+
+[![](https://img.shields.io/badge/NetLogo-gray?)](#)
+
+
+
 ---
 
