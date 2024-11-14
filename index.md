@@ -90,7 +90,7 @@ Barnet borough of London, UK has struggled to allocate limited resources effecti
 
 
 <div align="center">
-<img src="images/barnet-ilp.png?raw=true" width="400"/>
+<img src="images/barnet-ilp.png?raw=true" width="350"/>
 </div>
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
@@ -107,10 +107,10 @@ Barnet borough of London, UK has struggled to allocate limited resources effecti
 Airbnb has grown in popularity in recent years, and more people are interested in investing in properties to rent on the platform. New York's market is complex so my group and I created a dashboard with Plotly that utilizes interactive visualizations such as a choropleth map, bar charts, box plots, scatter plots, and a Parallel Coordinates Plot (PCP) to better understand the market in more depth. Included datasets to calculate the mean distances to bus/subway stops, and recreational/cultural activities within one mile of each Airbnb listing as research behavior in the US indicates the mean distance for walking is ~0.94 miles. The dashboard allows listers to gain a competitive advantage and stay competitive within the New York Airbnb market.
 
 <div align="center">
-<img src="images/vis-proj1.png?raw=true" width="400"/>
+<img src="images/vis-proj1.png?raw=true" width="500"/>
 </div>
 <div align="center">
-<img src="images/vis-proj2.png?raw=true" width="400"/>
+<img src="images/vis-proj2.png?raw=true" width="500"/>
 </div>
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#)
