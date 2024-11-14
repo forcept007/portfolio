@@ -85,7 +85,9 @@ Assess KLM's Twitter team's performance in comparison to other airlines and reco
 
 ### Predicting Burglaries in Barnet, UK
 
-Barnet borough of London, UK has struggled to allocate limited resources effectively against burglaries and implemented various forecasting techniques, including Prophet, SARIMA/SARIMAX, Random Forest, Holt-Winters Exponential Smoothing, and OLS. Prophet was the most robust forecasting model allowing for accurate predictions across Barnet. To allocate officers per LSOA (Lower layer Super Output Areas) code, implemented Integer linear programming (ILP) solver Gurobi. During this mathematical optimization procedure, a system of equations can be solved and optimized given a set of constraints. 
+Barnet borough of London, UK has struggled to allocate limited resources effectively against burglaries and implemented various forecasting techniques, including Prophet, SARIMA/SARIMAX, Random Forest, Holt-Winters Exponential Smoothing, and OLS. Prophet was the most robust forecasting model allowing for accurate predictions across Barnet. To allocate officers per LSOA (Lower layer Super Output Areas) code, my team and I implemented a Gurobi Integer linear programming (ILP) solver. This mathematical optimization approach solves a system of equations while optimizing resource allocation under a set of constraints, ensuring efficient deployment of law enforcement personnel.
+
+
 
 <div align="center">
 <img src="images/barnet-ilp.png?raw=true" width="400"/>
