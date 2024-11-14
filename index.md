@@ -9,7 +9,10 @@ Model inversion (MI) attacks are categorized into optimization approaches, which
 <div align="center">
 <img src="images/results-shadow.png?raw=true" width="500" />
 </div>
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#)
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) 
+[![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
+[![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#)
 
 [View Thesis Paper](/pdf/BEP__Shadow_Reconstruction_Attack_PT_Final.pdf)
 
@@ -81,6 +84,19 @@ Assess KLM's Twitter team's performance in comparison to other airlines and reco
 ---
 
 ### Predicting Burglaries in Barnet, UK
+
+Barnet borough of London, UK has struggled to allocate limited resources effectively against burglaries and implemented various forecasting techniques, including Prophet, SARIMA/SARIMAX, Random Forest, Holt-Winters Exponential Smoothing, and OLS. Prophet was the most robust forecasting model allowing for accurate predictions across Barnet. To allocate officers per LSOA (Lower layer Super Output Areas) code, implemented Integer linear programming (ILP) solver Gurobi. During this mathematical optimization procedure, a system of equations can be solved and optimized given a set of constraints. 
+
+<div align="center">
+<img src="images/barnet-ilp.png?raw=true" width="400"/>
+</div>
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#)
+[![](https://img.shields.io/badge/pandas-white?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMIAAAEDCAMAAABQ/CumAAAAeFBMVEX///8TB1QAAEb/ygDnBIgPAFLNzNYTAFnQ0NgMAFcAAETb2eP39/oUBlfV1N7/xwDmAID/9tfLydcjG17/4Yz//vbCwM3ykcL61OfoBIwyKmgAADYAAE0AAErx8PTIxdT/+un/34T85/Lyir/lAHv50eX+9fkpH2Ma8J+4AAACEklEQVR4nO3dzVIaQRSAUYNCEIGoiYmJivnP+79hFrmLVHELZ6pnmG483xqaPruh5lb32ZkkSZIkSZIkvb52z7dZU2+rT4uH2X6rx6m31afF7M1+87dTb6tPCDWEUEMINYRQQ5MS1tu0nqtMSrhKn26e1v1WmZawyn58g4DQL4QIoSyECKEshAihLIQIoSyECKEshAihLIQIoSyECKEshAihLIQIoSyECOFA6cvM5a4nYb29yjoO4WmVvM58WPQkbF8e+RqPcDlPVp4t+xLS/W0QEBCqI8yTLpsizN8n/WmJ0CEEBAQEBAQEBIT2CF+/fci6a4hw8y7rvC3CeRYCAgICAgICAgICAgICwlCEtJYIdzdp/3+kdkKHToFQ+RjJMCEcCKF7CAdC6B7CgRC6Nylh9zGtJUJ6uNCsnsOFhhkvPAHC9x+fsloi/Pp5nXTREuH++iLpMwICAgICAgICAgICAgKC/87R7/u0lggdQkBAQEBAQEB4dYQON67UTqh9KuwkDlRBQED4R8gOF5o3Rdh8yepLGO0ez6MNPO+WQ9w3NilhvBAihLIQIoSyECKEshAihLIQIoSyECKEshAihLIQIoSyECKEshAihLIQIoSyEKJt+lL0SNeADUR4TG9cGWXHew10AkPP4aRBO9ohEuOFUEMINYRQQwg1dAKEDvd41t5t2u7lL0qSJEmSJEnSyfUXeomSFq0EzbkAAAAASUVORK5CYII=)](#) 
+[![Gurobi](https://img.shields.io/badge/Gurobi-ILP-red?logo=gurobi&logoColor=white)](#)
+[![Prophet](https://img.shields.io/badge/Prophet-Time%20Series-blue?logo=chart-bar&logoColor=white)](#)
+[![OLS](https://img.shields.io/badge/OLS-Time%20Series-orange?logo=linear-regression&logoColor=white)](#)
+[![SARIMA](https://img.shields.io/badge/SARIMA-Time%20Series-green?logo=chart-line&logoColor=white)](#)
 
 ---
 
