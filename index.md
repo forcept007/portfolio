@@ -85,7 +85,7 @@ Effective social media engagement is critical for maintaining customer satisfact
 
 ### Predicting Burglaries in Barnet, UK
 
-The Barnet borough of London faces challenges in allocating limited resources to combat burglaries effectively. This project aimed to forecast burglary trends and optimize police resource allocation. Implemented OLS, Random Forest, SARIMA, and Prophet models, training a model for each Lower Super Output Area (LSOA) to account for regional differences. The Prophet model demonstrated the highest accuracy, achieving an average $R^2$ score of 0.83, effectively capturing 83\% of the variability in burglary rates across the regions. Additionally, used the Gurobi Integer Linear Programming (ILP) solver to optimize officer allocation across LSOAs. The project provided data-driven strategies to improve police officer deployment in Barnet to reduce burglary rates.
+The Barnet borough of London faces challenges in allocating limited resources to combat burglaries effectively. This project aimed to forecast burglary trends and optimize police resource allocation. Implemented OLS, Random Forest, SARIMA, and Prophet models, training a model for each Lower Super Output Area (LSOA) to account for regional differences. The Prophet model demonstrated the highest accuracy, achieving an average R^2 score of 0.83, effectively capturing 83% of the variability in burglary rates across the regions. Additionally, used the Gurobi Integer Linear Programming (ILP) solver to optimize officer allocation across LSOAs. The project provided data-driven strategies to improve police officer deployment in Barnet to reduce burglary rates.
 
 <div align="center">
 <img src="images/barnet-ilp.png?raw=true" width="350"/>
