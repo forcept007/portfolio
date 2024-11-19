@@ -1,6 +1,6 @@
 ## Selected Projects in Data Science, Machine Learning, and NLP 
 
-### Shadow Reconstructions - Thesis Project
+### Shadow Reconstructions - Thesis Project - Edit
 Model inversion (MI) attacks are categorized into optimization approaches, which use gradient-based optimization and inversion via a secondary model. This study bridges the gap between these two methods, focusing on a gray-box setting where the model's architecture is known but not its weights. The focus is on using a transposed convolutional neural network (TCNN) as an inverse model to reconstruct images from a convolutional neural network's (CNN) output vectors.
 
 <div align="center">
@@ -20,7 +20,7 @@ Model inversion (MI) attacks are categorized into optimization approaches, which
 
 ---
 
-### MEDUSA: Medical Data Under Shadow Attacks via Hybrid Model Inversion
+### MEDUSA: Medical Data Under Shadow Attacks via Hybrid Model Inversion - Edit
 #### Under Review for AISTATS 2025 Conference
 In collaboration with with the AIMI Center at Stanford I extended upon my thesis by proposing MEDUSA, a novel hybrid model inversion framework leveraging gradient-based optimization and TCNNs to reconstruct high-fidelity medical images from model outputs in a gray-box setting. Using surrogate shadow models trained on public data, MEDUSA simulates limited-information scenarios and demonstrates that even with restricted access, quality reconstructions are possible, posing significant privacy risks. We also evaluate the reconstructions as viable training data, finding that they can approximate real images well enough to use for model training. Finally, we propose robust defensive mechanisms such as output vector truncation, Gaussian noise, and a new k-NN smearing technique to tackle privacy risks.
 
@@ -36,7 +36,7 @@ In collaboration with with the AIMI Center at Stanford I extended upon my thes
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/NumPy-white?logo=data:image/png;base64,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)](#)
 ---
 
-### South Sudan Food Insecurity
+### South Sudan Food Insecurity - Edit
 The ongoing power struggles and conflicts in South Sudan continually threaten severe hunger. Our team used local news to identify major conflict events that significantly impact Integrated Food Security Phase Classification (IPC) scores, which remain elevated long after the events. To model IPC scores accurately, we combined news data with climate variables, capturing both the immediate and lasting effects of conflict and environmental factors.
 
 <div align="center">
@@ -54,7 +54,7 @@ The ongoing power struggles and conflicts in South Sudan continually threaten se
 
 ---
 
-### Speech Emotion Decoder
+### Speech Emotion Decoder - Edit
 Speech emotion detection is the automated task of identifying the primary emotional valence expressed in an audio file, quantified on a scale from 1 (highly negative) to 5 (highly positive). In this project, I developed a 1D CNN regression model using PyTorch to accurately predict these emotional valence values.
 
 <div align="center">
@@ -66,7 +66,7 @@ Speech emotion detection is the automated task of identifying the primary emotio
 [View Code on GitHub](https://github.com/forcept007/Speech_Emotion_Decoder/)
 
 ### Airline Customer Service Analysis - Twitter
-Assess KLM's Twitter team's performance in comparison to other airlines and recommend, based on analyses, if the team provides added value. Converted 6.5 million mined tweets from JSON files back into conversations format. Implemented BERT model for sentiment analysis, Rapid Automatic Keyword Extraction (RAKE) algorithm for topic extractions, and created a ranking system against other airlines with key KPIs such as response time, conversation length, solved conversations, and sentiment shift.
+Effective social media engagement is critical for maintaining customer satisfaction and loyalty in the airline industry. This project aimed to evaluate KLM’s Twitter-based customer service and determine if it provides a competitive advantage. Analyzed 6.5M tweets using a fine-tuned BERT model for sentiment analysis and RAKE for topic extraction, and developed a KPI-based ranking system incorporating sentiment trends, response time, and case resolution rates. The analysis showed KLM outperformed competitors in customer satisfaction and responsiveness, earning a 9/10 grade and identifying key service areas driving customer loyalty.
 
 <div align="center">
 <img src="images/klm-topics.png?raw=true" width="320" /> <img src="images/klm_ss.png?raw=true" width="320" />
@@ -83,7 +83,7 @@ Assess KLM's Twitter team's performance in comparison to other airlines and reco
 
 ---
 
-### Predicting Burglaries in Barnet, UK
+### Predicting Burglaries in Barnet, UK - Edit
 
 Barnet borough of London, UK has struggled to allocate limited resources effectively against burglaries and implemented various forecasting techniques, including Prophet, SARIMA/SARIMAX, Random Forest, Holt-Winters Exponential Smoothing, and OLS. Prophet was the most robust forecasting model allowing for accurate predictions across Barnet. To allocate officers per LSOA (Lower layer Super Output Areas) code, my team and I implemented a Gurobi Integer linear programming (ILP) solver. This mathematical optimization approach solves a system of equations while optimizing resource allocation under a set of constraints, ensuring efficient deployment of law enforcement personnel.
 
@@ -102,7 +102,7 @@ Barnet borough of London, UK has struggled to allocate limited resources effecti
 
 ---
 
-### AirBnB Dashboard
+### AirBnB Dashboard - Edit
 
 Airbnb has grown in popularity in recent years, and more people are interested in investing in properties to rent on the platform. New York's market is complex so my group and I created a dashboard with Plotly that utilizes interactive visualizations such as a choropleth map, bar charts, box plots, scatter plots, and a Parallel Coordinates Plot (PCP) to better understand the market in more depth. Included datasets to calculate the mean distances to bus/subway stops, and recreational/cultural activities within one mile of each Airbnb listing as research behavior in the US indicates the mean distance for walking is ~0.94 miles. The dashboard allows listers to gain a competitive advantage and stay competitive within the New York Airbnb market.
 
@@ -124,7 +124,7 @@ Airbnb has grown in popularity in recent years, and more people are interested i
 ### Spread of Misinformation 
 
 An experiment by Aslett et al. 2022 found that approximately one-third of the participants visited unreliable news websites. Misinformation on Social Media is a serious problem that can have varying harmful impacts depending on the severity of the false information.
-My group and I built a multi-agent modeling environment in NetLogo to simulate the spread of misinformation through social media, by investigating variables such as the reliability of the source, the severity of the fake news, susceptibility of individuals, gossip-reluctancy (willingness to talk with neighbors). The agents communicating with a patch simulate a user interacting with a news site directly, and a patch communicating with its adjacent patches simulates one person sharing the news with another in person or via text. We concluded from our experiments that both severity and source reliability have a positive correlation with the compromised population percentage, with source reliability having a stronger impact.
+This project aimed to simulate the spread of misinformation by modeling user interactions and peer-to-peer news sharing. My group and I developed a multi-agent simulation in NetLogo and implemented a generalized least squares regression to analyze the influence of source reliability and news severity. Experiments revealed that higher source reliability increased the compromised population rate by up to 37%, while the severity of the news reduced the time to reach 95% of the population by 40%. These findings highlight the significant influence of source credibility and news severity on the rapid spread of misinformation.
 
 <div align="center">
 <img src="images/netlogo-1.png?raw=true" width="350"/>
