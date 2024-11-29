@@ -1,7 +1,9 @@
 ## Selected Projects in Data Science, Machine Learning, and NLP 
 
 ### Shadow Reconstructions - Thesis Project - Edit
-Model inversion (MI) attacks are categorized into optimization approaches, which use gradient-based optimization and inversion via a secondary model. This study bridges the gap between these two methods, focusing on a gray-box setting where the model's architecture is known but not its weights. The focus is on using a transposed convolutional neural network (TCNN) as an inverse model to reconstruct images from a convolutional neural network's (CNN) output vectors.
+<div class="justify-text">
+<p>Model inversion (MI) attacks are categorized into optimization approaches, which use gradient-based optimization and inversion via a secondary model. This study bridges the gap between these two methods, focusing on a gray-box setting where the model's architecture is known but not its weights. The focus is on using a transposed convolutional neural network (TCNN) as an inverse model to reconstruct images from a convolutional neural network's (CNN) output vectors.</p>
+</div>
 
 <div align="center">
 <img src="images/workflow-shadow.png?raw=true" width="380" /> 
