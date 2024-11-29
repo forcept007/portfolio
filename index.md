@@ -1,8 +1,8 @@
 ## Selected Projects in Data Science, Machine Learning, and NLP 
 
-### Shadow Reconstructions - Thesis Project - Edit
+### Deep Learning Under Attack: Revealing Vulnerabilities through Shadow Reconstructions - Thesis
 <div style="text-align: justify;">
-<p>Model inversion (MI) attacks are categorized into optimization approaches, which use gradient-based optimization and inversion via a secondary model. This study bridges the gap between these two methods, focusing on a gray-box setting where the model's architecture is known but not its weights. The focus is on using a transposed convolutional neural network (TCNN) as an inverse model to reconstruct images from a convolutional neural network's (CNN) output vectors.</p>
+<p>My thesis developed a novel hybrid architecture for Model Inversion (MI) (reconstructing inputs to a target CNN via the model outputs) in a gray-box setting (where the target model’s architecture is known but its weights and training data are unknown). It is the first to combine two existing methods: input reconstruction via gradient-based optimization and inverse modeling. Since the target model’s weights and training data are unavailable, a Shadow Model (SM) was trained on a dataset with a similar distribution to approximate the target model’s behavior. Once the SM is trained, its gradient-reconstructed input is combined with its output vector to train an inverse model (a transposed convolutional neural network) using the same training data for the SM. At inference time, the SM approximates the inputs of the target model using the latter's outputs, and the inverse model receives both as input. This hybrid architecture outperformed the the gradient-based optimization method on the test set by 54.73%.</p>
 </div>
 
 <div align="center">
@@ -22,10 +22,10 @@
 
 ---
 
-### MEDUSA: Medical Data Under Shadow Attacks via Hybrid Model Inversion - Edit
+### MEDUSA: Medical Data Under Shadow Attacks via Hybrid Model Inversion
 #### Accepted for AISTATS 2025 Conference
 <div style="text-align: justify;">
-<p>In collaboration with with the AIMI Center at Stanford I extended upon my thesis by proposing MEDUSA, a novel hybrid model inversion framework leveraging gradient-based optimization and TCNNs to reconstruct high-fidelity medical images from model outputs in a gray-box setting. Using surrogate shadow models trained on public data, MEDUSA simulates limited-information scenarios and demonstrates that even with restricted access, quality reconstructions are possible, posing significant privacy risks. We also evaluate the reconstructions as viable training data, finding that they can approximate real images well enough to use for model training. Finally, we propose robust defensive mechanisms such as output vector truncation, Gaussian noise, and a new k-NN smearing technique to tackle privacy risks.</p>
+<p>In collaboration with with the AIMI Center at Stanford I extended upon my thesis by proposing MEDUSA, a novel hybrid model inversion framework leveraging gradient-based optimization and inverse modeling to reconstruct high-fidelity medical images from model outputs in a gray-box setting. We applied the hybrid MI model to reconstruct the MedMNIST datasets and achieved up to 12% improvement in performance compared to standard gradient reconstructions. We demonstrated that models trained on 50% real data supplemented with synthetic reconstructions from our hybrid model performed within 5% of benchmarks set by models trained on 100% real data. This validates the effectiveness of synthetic reconstructions, enabling adversaries to closely replicate clinical models and reconstruct inputs from outputs. We therefore investigated defense mechanisms and found that limiting the publicly available data (e.g. 5% of the total dataset) can significantly degrade (e.g. by 78%) an attacker’s ability to reconstruct the inputs and still maintain data transparency. We also invented a smearing defense technique, whereby a clinical model’s output is reconstructed as a weighted sum of its k-nearest neighbors, reducing reconstruction quality by up to 64%.</p>
 </div>
 
 <div align="center">
