@@ -1,15 +1,12 @@
 title: Paul Thielen # your name (or website title) here
 logo: "/images/profile_image_new.jpeg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <div style="text-align: justify;">
-  <p>Data Scientist with a Bachelor's degree from Eindhoven University of Technology (TU/e), where I graduated cum laude. 
+  Data Scientist with a Bachelor's degree from Eindhoven University of Technology (TU/e), where I graduated cum laude. 
   I have a strong foundation in Data Science, with a focus on statistics and machine learning. Previously worked as a Data Analyst Intern at Uber, 
-  focusing on analytical work and gaining practical experience in data-driven decision-making.</p>
-  </div>
+  focusing on analytical work and gaining practical experience in data-driven decision-making.
   <br><br>
-  <div style="text-align: justify;">
-  <p>My mission is to contribute to Data Science in healthcare, ensuring privacy and minimizing biases in decision-making processes 
-  while leveraging data to improve patient outcomes and healthcare delivery. I plan to pursue a master's degree to help me grow professionally and as a leader in the Data Science community.</p></div>
+  My mission is to contribute to Data Science in healthcare, ensuring privacy and minimizing biases in decision-making processes 
+  while leveraging data to improve patient outcomes and healthcare delivery. I plan to pursue a master's degree to help me grow professionally and as a leader in the Data Science community.
   <br><br>
   <a href="https://www.linkedin.com/in/paul-thielen/">View My LinkedIn Profile</a> 
   
