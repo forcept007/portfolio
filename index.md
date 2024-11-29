@@ -23,8 +23,10 @@
 ---
 
 ### MEDUSA: Medical Data Under Shadow Attacks via Hybrid Model Inversion - Edit
-#### Under Review for AISTATS 2025 Conference
-In collaboration with with the AIMI Center at Stanford I extended upon my thesis by proposing MEDUSA, a novel hybrid model inversion framework leveraging gradient-based optimization and TCNNs to reconstruct high-fidelity medical images from model outputs in a gray-box setting. Using surrogate shadow models trained on public data, MEDUSA simulates limited-information scenarios and demonstrates that even with restricted access, quality reconstructions are possible, posing significant privacy risks. We also evaluate the reconstructions as viable training data, finding that they can approximate real images well enough to use for model training. Finally, we propose robust defensive mechanisms such as output vector truncation, Gaussian noise, and a new k-NN smearing technique to tackle privacy risks.
+#### Accepted for AISTATS 2025 Conference
+<div style="text-align: justify;">
+<p>In collaboration with with the AIMI Center at Stanford I extended upon my thesis by proposing MEDUSA, a novel hybrid model inversion framework leveraging gradient-based optimization and TCNNs to reconstruct high-fidelity medical images from model outputs in a gray-box setting. Using surrogate shadow models trained on public data, MEDUSA simulates limited-information scenarios and demonstrates that even with restricted access, quality reconstructions are possible, posing significant privacy risks. We also evaluate the reconstructions as viable training data, finding that they can approximate real images well enough to use for model training. Finally, we propose robust defensive mechanisms such as output vector truncation, Gaussian noise, and a new k-NN smearing technique to tackle privacy risks.</p>
+</div>
 
 <div align="center">
   <img src="images/defence-mech.png?raw=true" width="320" />
@@ -39,7 +41,10 @@ In collaboration with with the AIMI Center at Stanford I extended upon my thes
 ---
 
 ### South Sudan Food Insecurity
-Food insecurity in South Sudan is intensified by conflict, necessitating data-driven solutions. This project, conducted in collaboration with the Zero Hunger Lab, aimed to predict food insecurity risks using local and global news articles about South Sudan and climate data from the World Bank Group. Our group trained linear regression models for two districts, incorporating climate features and the number of articles mentioning violence in the specific district (extracted via GPT-3) to forecast IPC scores monthly. Following the Bentiu takeover, a major conflict event, the models exhibited a 1000% increase in mean-squared error. A Bayesian Structural Time Series model further confirmed a statistically significant 70.82% rise in IPC scores post-takeover, highlighting the lasting impact of conflict on food insecurity. The project earned a 9/10 grade and recognition from the Zero Hunger Lab.
+<div style="text-align: justify;">
+<p>
+Food insecurity in South Sudan is intensified by conflict, necessitating data-driven solutions. This project, conducted in collaboration with the Zero Hunger Lab, aimed to predict food insecurity risks using local and global news articles about South Sudan and climate data from the World Bank Group. Our group trained linear regression models for two districts, incorporating climate features and the number of articles mentioning violence in the specific district (extracted via GPT-3) to forecast IPC scores monthly. Following the Bentiu takeover, a major conflict event, the models exhibited a 1000% increase in mean-squared error. A Bayesian Structural Time Series model further confirmed a statistically significant 70.82% rise in IPC scores post-takeover, highlighting the lasting impact of conflict on food insecurity. The project earned a 9/10 grade and recognition from the Zero Hunger Lab.</p>
+</div>
 
 <div align="center">
 <img src="images/south_sudan_map.png?raw=true" />
@@ -57,7 +62,10 @@ Food insecurity in South Sudan is intensified by conflict, necessitating data-dr
 ---
 
 ### Speech Emotion Decoder
-Accurately detecting emotional valence in speech is critical for improving human-computer interactions. This project aimed to develop a model that predicts emotional valence on a 1-5 scale based on spoken language. Built a 1D CNN regression model in PyTorch, achieving a mean squared error (MSE) of 0.26 on the test set. Optimized performance through hyperparameter tuning, testing optimizers (Adam, Adagrad, SGD with Nesterov momentum), and conducting a random grid search to fine-tune learning rates and hidden layer configurations.
+<div style="text-align: justify;">
+<p>
+Accurately detecting emotional valence in speech is critical for improving human-computer interactions. This project aimed to develop a model that predicts emotional valence on a 1-5 scale based on spoken language. Built a 1D CNN regression model in PyTorch, achieving a mean squared error (MSE) of 0.26 on the test set. Optimized performance through hyperparameter tuning, testing optimizers (Adam, Adagrad, SGD with Nesterov momentum), and conducting a random grid search to fine-tune learning rates and hidden layer configurations.</p>
+</div>
 
 <div align="center">
 <img src="images/audio_data.png?raw=true" />
@@ -68,7 +76,10 @@ Accurately detecting emotional valence in speech is critical for improving human
 [View Code on GitHub](https://github.com/forcept007/Speech_Emotion_Decoder/)
 
 ### Airline Customer Service Analysis - Twitter
-Effective social media engagement is critical for maintaining customer satisfaction and loyalty in the airline industry. This project aimed to evaluate KLM’s Twitter-based customer service and determine if it provides a competitive advantage. Analyzed 6.5M tweets using a fine-tuned BERT model for sentiment analysis and RAKE for topic extraction, and developed a KPI-based ranking system incorporating sentiment trends, response time, and case resolution rates. We as a team brought forth the innovative idea of using the proportions of positive/negative tweets around key topics as metrics for competitive analysis.
+<div style="text-align: justify;">
+<p>
+Effective social media engagement is critical for maintaining customer satisfaction and loyalty in the airline industry. This project aimed to evaluate KLM’s Twitter-based customer service and determine if it provides a competitive advantage. Analyzed 6.5M tweets using a fine-tuned BERT model for sentiment analysis and RAKE for topic extraction, and developed a KPI-based ranking system incorporating sentiment trends, response time, and case resolution rates. We as a team brought forth the innovative idea of using the proportions of positive/negative tweets around key topics as metrics for competitive analysis.</p>
+</div>
 
 <div align="center">
 <img src="images/klm-topics.png?raw=true" width="320" /> <img src="images/klm_ss.png?raw=true" width="320" />
@@ -86,8 +97,10 @@ Effective social media engagement is critical for maintaining customer satisfact
 ---
 
 ### Predicting Burglaries in Barnet, UK
-
-The Barnet borough of London faces challenges in allocating limited resources to combat burglaries effectively. This project aimed to forecast burglary trends and optimize police resource allocation. Implemented OLS, Random Forest, SARIMA, and Prophet models, training a model for each Lower Super Output Area (LSOA) to account for regional differences. The Prophet model demonstrated the highest accuracy, achieving an average R^2 score of 0.83, effectively capturing 83% of the variability in burglary rates across the regions. Additionally, used the Gurobi Integer Linear Programming (ILP) solver to optimize officer allocation across LSOAs. The project provided data-driven strategies to improve police officer deployment in Barnet to reduce burglary rates.
+<div style="text-align: justify;">
+<p>
+The Barnet borough of London faces challenges in allocating limited resources to combat burglaries effectively. This project aimed to forecast burglary trends and optimize police resource allocation. Implemented OLS, Random Forest, SARIMA, and Prophet models, training a model for each Lower Super Output Area (LSOA) to account for regional differences. The Prophet model demonstrated the highest accuracy, achieving an average R^2 score of 0.83, effectively capturing 83% of the variability in burglary rates across the regions. Additionally, used the Gurobi Integer Linear Programming (ILP) solver to optimize officer allocation across LSOAs. The project provided data-driven strategies to improve police officer deployment in Barnet to reduce burglary rates.</p>
+</div>
 
 <div align="center">
 <img src="images/barnet-ilp.png?raw=true" width="350"/>
@@ -103,7 +116,10 @@ The Barnet borough of London faces challenges in allocating limited resources to
 ---
 
 ### AirBnB Dashboard
-As Airbnb’s popularity grows, understanding complex markets like New York is essential for property investors. This group project aimed to create an interactive Plotly dashboard to provide hosts with a competitive edge. The dashboard featured linked visualizations, including a choropleth map of New York, bar charts, box plots, scatter plots, and a Parallel Coordinates Plot, allowing users to explore connections between various aspects of the market. Spatial data was integrated to calculate mean distances to transit and recreational activities within one mile of each listing. The dashboard allows hosts to make data-driven decisions on pricing, policies, and market positioning.
+<div style="text-align: justify;">
+<p>
+As Airbnb’s popularity grows, understanding complex markets like New York is essential for property investors. This group project aimed to create an interactive Plotly dashboard to provide hosts with a competitive edge. The dashboard featured linked visualizations, including a choropleth map of New York, bar charts, box plots, scatter plots, and a Parallel Coordinates Plot, allowing users to explore connections between various aspects of the market. Spatial data was integrated to calculate mean distances to transit and recreational activities within one mile of each listing. The dashboard allows hosts to make data-driven decisions on pricing, policies, and market positioning.</p>
+</div>
 
 <div align="center">
 <img src="images/vis-proj1.png?raw=true" width="500"/>
@@ -121,9 +137,11 @@ As Airbnb’s popularity grows, understanding complex markets like New York is e
 ---
 
 ### Spread of Misinformation 
-
+<div style="text-align: justify;">
+<p>
 An experiment by Aslett et al. 2022 found that approximately one-third of the participants visited unreliable news websites. Misinformation on Social Media is a serious problem that can have varying harmful impacts depending on the severity of the false information.
-This project aimed to simulate the spread of misinformation by modeling user interactions and peer-to-peer news sharing. My group and I developed a multi-agent simulation in NetLogo and implemented a generalized least squares regression to analyze the influence of source reliability and news severity. Experiments revealed that higher source reliability increased the compromised population rate by up to 37%, while the severity of the news reduced the time to reach 95% of the population by 40%. These findings highlight the significant influence source credibility and news severity have on the rapid spread of misinformation.
+This project aimed to simulate the spread of misinformation by modeling user interactions and peer-to-peer news sharing. My group and I developed a multi-agent simulation in NetLogo and implemented a generalized least squares regression to analyze the influence of source reliability and news severity. Experiments revealed that higher source reliability increased the compromised population rate by up to 37%, while the severity of the news reduced the time to reach 95% of the population by 40%. These findings highlight the significant influence source credibility and news severity have on the rapid spread of misinformation.</p>
+</div>
 
 <div align="center">
 <img src="images/netlogo-1.png?raw=true" width="350"/>
@@ -134,8 +152,6 @@ This project aimed to simulate the spread of misinformation by modeling user int
 
 [![](https://img.shields.io/badge/NetLogo-gray?)](#)
 [![](https://img.shields.io/badge/R-white?logo=R&logoColor=black)](#)
-
-
 
 ---
 
