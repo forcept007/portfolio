@@ -64,7 +64,7 @@ Food insecurity in South Sudan is intensified by conflict, necessitating data-dr
 ### Speech Emotion Decoder
 <div style="text-align: justify;">
 <p>
-Accurately detecting emotional valence in speech is critical for improving human-computer interactions. This project aimed to develop a model that predicts emotional valence on a 1-5 scale based on spoken language. Built a 1D CNN regression model in PyTorch, achieving a mean squared error (MSE) of 0.26 on the test set. Optimized performance through hyperparameter tuning, testing optimizers (Adam, Adagrad, SGD with Nesterov momentum), and conducting a random grid search to fine-tune learning rates and hidden layer configurations.</p>
+Accurately detecting emotional valence in speech is critical for improving human-computer interactions. This project aimed to develop a model that predicts emotional valence on a 1-5 scale based on audio recordings. Built a 1D CNN regression model in PyTorch, achieving a mean squared error (MSE) of 0.26 on the test set. Optimized performance through hyperparameter tuning, testing optimizers (Adam, Adagrad, SGD with Nesterov momentum), and conducting a random grid search to fine-tune learning rates and hidden layer configurations.</p>
 </div>
 
 <div align="center">
@@ -118,7 +118,7 @@ The Barnet borough of London faces challenges in allocating limited resources to
 ### AirBnB Dashboard
 <div style="text-align: justify;">
 <p>
-As Airbnb’s popularity grows, understanding complex markets like New York is essential for property investors. This group project aimed to create an interactive Plotly dashboard to provide hosts with a competitive edge. The dashboard featured linked visualizations, including a choropleth map of New York, bar charts, box plots, scatter plots, and a Parallel Coordinates Plot, allowing users to explore connections between various aspects of the market. Spatial data was integrated to calculate mean distances to transit and recreational activities within one mile of each listing. The dashboard allows hosts to make data-driven decisions on pricing, policies, and market positioning.</p>
+As Airbnb’s popularity grows, understanding complex markets like New York is essential for property investors and hosts. This group project aimed to create an interactive Plotly dashboard to provide the mentioned stakeholders with a competitive edge. The dashboard featured linked visualizations, including a choropleth map of New York, bar charts, box plots, scatter plots, and a Parallel Coordinates Plot, allowing users to explore connections between various aspects of the market. Spatial data was integrated to calculate mean distances to transit and recreational activities within one mile of each listing. The dashboard allows stakeholders to make data-driven decisions on pricing, policies, and market positioning.</p>
 </div>
 
 <div align="center">
@@ -140,7 +140,7 @@ As Airbnb’s popularity grows, understanding complex markets like New York is e
 <div style="text-align: justify;">
 <p>
 An experiment by Aslett et al. 2022 found that approximately one-third of the participants visited unreliable news websites. Misinformation on Social Media is a serious problem that can have varying harmful impacts depending on the severity of the false information.
-This project aimed to simulate the spread of misinformation by modeling user interactions and peer-to-peer news sharing. My group and I developed a multi-agent simulation in NetLogo and implemented a generalized least squares regression to analyze the influence of source reliability and news severity. Experiments revealed that higher source reliability increased the compromised population rate by up to 37%, while the severity of the news reduced the time to reach 95% of the population by 40%. These findings highlight the significant influence source credibility and news severity have on the rapid spread of misinformation.</p>
+This project aimed to simulate the spread of misinformation by modeling user interactions and peer-to-peer news sharing. My group and I developed a multi-agent simulation in NetLogo and implemented a generalized least squares regression to analyze the influence of source reliability and news severity on the compromised population percentage. Experiments revealed that higher source reliability increased the compromised population rate by up to 37%, while the severity of the news reduced the time to reach 95% of the population by 40%. These findings highlight the significant influence source credibility and news severity have on the rapid spread of misinformation.</p>
 </div>
 
 <div align="center">
