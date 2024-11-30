@@ -23,7 +23,7 @@
 ---
 
 ### MEDUSA: Medical Data Under Shadow Attacks via Hybrid Model Inversion
-#### Accepted for AISTATS 2025 Conference
+#### Accepted to AISTATS 2025 Conference
 <div style="text-align: justify;">
 <p>In collaboration with with the <a href="https://aimi.stanford.edu/">AIMI Center at Stanford</a> I extended upon my thesis by proposing MEDUSA, a novel hybrid model inversion framework leveraging gradient-based optimization and inverse modeling to reconstruct high-fidelity medical images from model outputs in a gray-box setting. We applied the hybrid MI model to reconstruct the MedMNIST datasets and achieved up to 12% improvement in performance compared to standard gradient reconstructions. We demonstrated that models trained on 50% real data supplemented with synthetic reconstructions from our hybrid model performed within 5% of benchmarks set by models trained on 100% real data. This validates the effectiveness of synthetic reconstructions, enabling adversaries to closely replicate clinical models and reconstruct inputs from outputs. We therefore investigated defense mechanisms and found that limiting the publicly available data (e.g. 5% of the total dataset) can significantly degrade (e.g. by 78%) an attacker’s ability to reconstruct the inputs and still maintain data transparency. We also invented a smearing defense technique, whereby a clinical model’s output is reconstructed as a weighted sum of its k-nearest neighbors, reducing reconstruction quality by up to 64%.</p>
 </div>
