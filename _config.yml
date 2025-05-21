@@ -11,7 +11,9 @@ description: > # your text below (remove <br> elements if you don't need line br
 
   <a href="https://www.linkedin.com/in/paul-thielen/">View My LinkedIn Profile</a>
   <br>
-  <a href=" https://scholar.google.com/citations?user=LfLiUPUAAAAJ&hl=en&oi=ao">View My Google Scholar Profile</a> 
+  <a href=" https://scholar.google.com/citations?user=LfLiUPUAAAAJ&hl=en&oi=ao">View My Google Scholar Profile</a>
+  <br>
+  [View My CV](/pdf/Paul_Thielen_CV.pdf)
  
   
 remote_theme: pages-themes/minimal@v0.2.0
