@@ -11,10 +11,9 @@ description: > # your text below (remove <br> elements if you don't need line br
 
   <a href="https://www.linkedin.com/in/paul-thielen/">View My LinkedIn Profile</a>
   <br>
-  <a href=" https://scholar.google.com/citations?user=LfLiUPUAAAAJ&hl=en&oi=ao">View My Google Scholar Profile</a>
+  <a href="https://scholar.google.com/citations?user=LfLiUPUAAAAJ&hl=en&oi=ao">View My Google Scholar Profile</a>
   <br>
-  [View My CV](/pdf/Paul_Thielen_CV.pdf)
- 
+  <a href="https://github.com/forcept007/portfolio/blob/master/pdf/Paul_Thielen_CV.pdf">View My CV</a>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
